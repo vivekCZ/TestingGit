@@ -358,15 +358,6 @@
     
     else if (status.category == PNConnectedCategory) {
         
-//        [self.client publish:@"Hello from the PubNub Objective-C SDK" toChannel:channelID
-//              withCompletion:^(PNPublishStatus *status) {
-//                  
-//                  if (!status.isError) {
-//                      
-//                  }
-//                  else {
-//                  }
-//              }];
     }
     else if (status.category == PNReconnectedCategory)
     {
